@@ -5,3 +5,4 @@ print("Total is: ",total)
 
 bitch_Status="No bitches"
 print("Does mohamid gets Bitches: ",bitch_Status)
+
