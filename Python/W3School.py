@@ -26,3 +26,18 @@ print(w)
 
 i="Faraz is bharwa and a \" bitch\" hehe!"
 print(i)
+
+print(type(age))
+
+print(isinstance(age,float))
+
+a=10
+b=100
+print(a is b)
+
+print(a is not b)
+
+str1="Daniyal Hassan"
+print("Daniyal" in str1)
+
+print("Daniyal" not in str1)
