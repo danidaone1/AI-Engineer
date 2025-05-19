@@ -30,13 +30,14 @@ print(i)
 print(type(age))
 
 print(isinstance(age,float))
-
+#Identity opreator 
 a=10
 b=100
 print(a is b)
 
 print(a is not b)
 
+#Memebership Opreators
 str1="Daniyal Hassan"
 print("Daniyal" in str1)
 
