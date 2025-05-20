@@ -42,3 +42,21 @@ str1="Daniyal Hassan"
 print("Daniyal" in str1)
 
 print("Daniyal" not in str1)
+
+#Lists
+mylist=["faraz","sarmad","Mohamid","Hashir","rohail","Hamza"]
+print(len(mylist))
+print(mylist[1])
+print(mylist[-1])
+
+print(mylist[2:6])
+print(mylist[-3:-1])
+
+mylist.insert(0,"Daniyal")
+print(mylist)
+
+list2=list(("mango","apple","kiwi","banana","nashpati"))
+print(list2)
+list2[1:3]=["strawberry","watermelon"]
+print(list2)
+
