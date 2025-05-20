@@ -60,3 +60,31 @@ print(list2)
 list2[1:3]=["strawberry","watermelon"]
 print(list2)
 
+list2.append("dragonfruit")
+print(list2)
+
+list2.extend(mylist)
+print(list2)
+
+list2.remove("Hamza")
+print(list2)
+
+list2.pop(1)
+print(list2)
+
+del list2[1:3]
+print(list2)
+
+list2.sort()
+print(list2)
+
+list2.sort(reverse=True)
+print(list2)
+
+list2.reverse()
+print(list2)
+
+#case insensitive sort
+
+list2.sort(key=str.lower)
+print(list2)
