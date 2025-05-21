@@ -77,10 +77,10 @@ print(list2)
 
 list2.sort()
 print(list2)
-
+#descending sort
 list2.sort(reverse=True)
 print(list2)
-
+#revers the string
 list2.reverse()
 print(list2)
 
@@ -88,3 +88,33 @@ print(list2)
 
 list2.sort(key=str.lower)
 print(list2)
+
+#copy
+arr=[1,2,3,4,5,6]
+num=[]
+num=arr[:3]
+print(num)
+
+#join list
+
+arr3=arr+num
+print(arr3)
+#Can also use extend or append to join the lists
+
+#count number of occerunce in a list method
+
+print(arr3.count(1))
+
+#if-else
+n1=20
+n2=30
+if n1>n2:
+    print("N1 is greater then n2")
+else:
+    print("N2 is greater then n1")
+#short hand
+n3=10
+n4=20
+print("n4 is greater") if n4>n3 else print("n3 is greater")
+
+
