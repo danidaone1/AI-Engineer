@@ -60,6 +60,12 @@ print(reset1)
 #symmetric_difference() method returns all the values except duplicates
 rest1=set1.symmetric_difference(set4)
 print(rest1)
+#dictionary
+
+dick=dict(name="Daniyal",age=22,height="6'3")
+print(dick)
+print(dick[name])
+
 
 
 
