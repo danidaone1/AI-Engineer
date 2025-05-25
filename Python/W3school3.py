@@ -64,10 +64,69 @@ print(rest1)
 
 dick=dict(name="Daniyal",age=22,height="6'3")
 print(dick)
-print(dick[name])
 
+print(dick.get("name"))
+y=dick.keys()
+print(y)
+dick["color"]="Brownish"
+print(y)
 
+y=dick.values()
+print(y)
+print(dick)
+for x in dick:
+   print(x)
+y=dick.items()
+print(y)
+dick["weight"]=110
+print(y)
 
+#update a dictionary
+dick.update({"weight":115})
+print(dick)
 
+dick.pop("weight")
+print(dick)
 
+#looping through dictionaries
+for x,y in dick.items():
+   print(x,y)
+
+for x in dick.values():
+   print(x)
+
+uw=list(dick.items())
+print(uw)
+
+temp=[]
+temp2=[]
+for x in range(len(uw)):
+     print(x)
+     temp.append(list(uw[x]))
+     for y in range(len(temp[x])):
+        temp2.append(temp[x][y])
+print(temp)
+print(temp2)
+we=dick.copy()
+print(we)
+
+#nest dictionaries
+myfamily = {
+  "child1" : {
+    "name" : "Emil",
+    "year" : 2004
+  },
+  "child2" : {
+    "name" : "Tobias",
+    "year" : 2007
+  },
+  "child3" : {
+    "name" : "Linus",
+    "year" : 2011
+  }
+}
+for x,obj in myfamily.items():
+   print(x)
+   for z in obj:
+      print(z+":",obj[z])
       
