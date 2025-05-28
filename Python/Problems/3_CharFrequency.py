@@ -4,7 +4,6 @@
 #[g,o,o,g,l,e,.,c,o,m]
 
 string="google.com"
-size=len(string)
 count={}
 char=''
 for char in string:
@@ -15,6 +14,3 @@ for char in string:
 
 
 print(count)
-
-
-
