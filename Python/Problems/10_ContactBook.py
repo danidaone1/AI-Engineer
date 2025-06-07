@@ -20,7 +20,11 @@ def update(name,phone):
 def delete(key):
     contact.pop(key)
     
-def search():
+def search(user_input):
+    for x in contact:
+        if user_input==x.lower() or x:
+            return 
+        
 
     pass
 def display():
